@@ -2,7 +2,7 @@
   "name": "express-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/kinocobox/node-express-tutorial#readme",
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.9",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
   }
 }
