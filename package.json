@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "dev": "npm run dev:build && npm run dev:serve",
+    "dev:build": "npx tsc",
+    "dev:serve": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
